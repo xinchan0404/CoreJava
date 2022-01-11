@@ -33,7 +33,7 @@ public class ExceptionTest {
     // IOException：无法通过编译
     @Test
     public void test() {
-//        File file = new File("hello.txt");
+//        File file = new File("hello.txt.txt");
 //        FileInputStream fileInputStream = new FileInputStream(file);
 //
 //        int data = fileInputStream.read();
