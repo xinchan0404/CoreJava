@@ -1,7 +1,7 @@
-package com.xinchan.corejava.ch11.kuangStudy;
+package com.xinchan.corejava.ch11.kuang;
 
 /**
- * 狂神说-多线程详解-创建线程-测试2：实现 Runnable 接口
+ * 狂神说-多线程详解：创建线程-测试2：实现 Runnable 接口
  * @author xinchan
  * @version 1.0.1 2022-01-10
  */

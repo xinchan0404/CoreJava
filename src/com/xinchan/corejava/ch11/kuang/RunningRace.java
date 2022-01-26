@@ -1,4 +1,4 @@
-package com.xinchan.corejava.ch11.kuangStudy;
+package com.xinchan.corejava.ch11.kuang;
 
 /**
  * 狂神说-多线程详解-创建线程-练习：龟兔赛跑
