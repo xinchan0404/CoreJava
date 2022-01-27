@@ -9,14 +9,14 @@ public class SynchSellTicket {
         Ticket ticket = new Ticket(100);
         for (int i = 0; i < 3; i++) {
             Runnable r = () -> {
-                while (ticket.getTickets() > 0) {
+                while (ticket.hasTicket()) {
                     try {
                         ticket.sellTicket();
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
                 }
-                System.out.println(Thread.currentThread().getName() + "售票结束");
+                System.out.println(Thread.currentThread().getName() + " 售票结束");
             };
             new Thread(r).start();
         }

@@ -21,8 +21,12 @@ public class Ticket {
             return;
         }
         tickets--;
-        System.out.println(Thread.currentThread().getName() + " 售票一张  余票：" + tickets);
+        System.out.println(Thread.currentThread().getName() + " 售票 1 张  余票：" + tickets);
         Thread.sleep(10);
+    }
+
+    public boolean hasTicket() {
+        return getTicket() > 0;
     }
 
     /**
@@ -30,7 +34,7 @@ public class Ticket {
      *
      * @return
      */
-    public int getTickets() {
+    public int getTicket() {
         return tickets;
     }
 }
