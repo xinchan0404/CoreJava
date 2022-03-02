@@ -1,6 +1,6 @@
-package com.xinchan.collection.list.linkedList;
+package com.xinchan.collections.collection.list.linkedList;
 
-import com.xinchan.collection.list.Student;
+import com.xinchan.collections.collection.list.Student;
 
 import java.util.Iterator;
 import java.util.LinkedList;

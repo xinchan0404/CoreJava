@@ -1,4 +1,4 @@
-package com.xinchan.collection.list;
+package com.xinchan.collections.collection.list;
 
 /**
  * @author zegxn

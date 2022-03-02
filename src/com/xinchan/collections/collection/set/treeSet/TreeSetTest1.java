@@ -1,4 +1,4 @@
-package com.xinchan.collection.set.treeSet;
+package com.xinchan.collections.collection.set.treeSet;
 
 import java.util.Comparator;
 import java.util.Iterator;

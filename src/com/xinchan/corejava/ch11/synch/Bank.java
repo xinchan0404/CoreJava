@@ -38,6 +38,7 @@ public class Bank {
     public void transfer(int from, int to, double amount) {
         reentrantLock.lock();
         try {
+            System.out.println(reentrantLock.getHoldCount());
             if (accounts[from] < amount) {
                 sufficientFunds.await();
             }

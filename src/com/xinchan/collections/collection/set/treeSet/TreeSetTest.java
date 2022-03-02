@@ -1,6 +1,4 @@
-package com.xinchan.collection.set.treeSet;
-
-import com.xinchan.collection.set.Student;
+package com.xinchan.collections.collection.set.treeSet;
 
 import java.util.Iterator;
 import java.util.TreeSet;

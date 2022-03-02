@@ -1,8 +1,6 @@
 package com.xinchan.corejava.ch09.treeSet;
 
-import java.util.Comparator;
-import java.util.Iterator;
-import java.util.TreeSet;
+import java.util.*;
 
 /**
  * @author xinchan

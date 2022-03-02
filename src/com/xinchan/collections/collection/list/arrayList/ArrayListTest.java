@@ -1,6 +1,6 @@
-package com.xinchan.collection.list.arrayList;
+package com.xinchan.collections.collection.list.arrayList;
 
-import com.xinchan.collection.list.Student;
+import com.xinchan.collections.collection.list.Student;
 
 import java.util.ArrayList;
 import java.util.Iterator;

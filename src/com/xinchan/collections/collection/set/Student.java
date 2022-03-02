@@ -1,4 +1,4 @@
-package com.xinchan.collection.set;
+package com.xinchan.collections.collection.set;
 
 import java.util.Objects;
 

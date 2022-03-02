@@ -1,5 +1,7 @@
 package com.xinchan.corejava.ch11.hsp.create;
 
+import java.util.concurrent.Callable;
+
 /**
  * Java 创建线程方式一：继承 Thread 类并重写 run 方法
  *

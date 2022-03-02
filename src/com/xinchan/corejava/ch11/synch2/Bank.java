@@ -44,7 +44,7 @@ public class Bank {
      *
      * @return the total balance
      */
-    public double getTotalBalance() {
+    public synchronized double getTotalBalance() {
         double totalBalance = 0;
         for (double account : accounts) {
             totalBalance += account;

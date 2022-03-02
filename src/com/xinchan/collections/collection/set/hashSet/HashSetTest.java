@@ -1,6 +1,6 @@
-package com.xinchan.collection.set.hashSet;
+package com.xinchan.collections.collection.set.hashSet;
 
-import com.xinchan.collection.set.Student;
+import com.xinchan.collections.collection.set.Student;
 
 import java.util.HashSet;
 import java.util.Iterator;
